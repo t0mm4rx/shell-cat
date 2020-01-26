@@ -6,7 +6,7 @@ That simple utility creates two commands in your zsh or bash config :
 
 ## Installation
 
-Make sure your Python3 is installed.
+Make sure Python3 is installed.
 
 ```sh
 # In a folder where you have full writes
