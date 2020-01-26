@@ -41,7 +41,7 @@ if (os.path.exists("{}.bashrc".format(home))):
 if (os.path.exists("{}.zshrc".format(home))):
 	shutil.copy("{}.zshrc".format(home), "{}.zshrc_backup".format(home))
 	with open("{}.zshrc".format(home), 'a') as file:
-	file.write('\n\n# Addition by shell-cat\n')
-	file.write(PUSH_FN.replace("$$$1", push_fn))
-	file.write("\n")
-	file.write(CAT_FN.replace("$$$1", cat_fn))
+		file.write('\n\n# Addition by shell-cat\n')
+		file.write(PUSH_FN.replace("$$$1", push_fn))
+		file.write("\n")
+		file.write(CAT_FN.replace("$$$1", cat_fn))
