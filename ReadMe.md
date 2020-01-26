@@ -8,9 +8,7 @@ That simple utility creates two commands in your zsh or bash config :
 
 Idea from Violetta Goldman.
 
-                           |
-:-------------------------:|:-------------------------:
-![CC command](./cc.gif)    |  ![GOLD command](./gold.gif)
+![CC command](./cc.gif) ![GOLD command](./gold.gif)
 
 ## Installation
 
