@@ -1,3 +1,5 @@
+![CC command](./cc.gif)
+
 # Shell-cat
 
 That simple utility creates two commands in your zsh or bash config :
