@@ -1,4 +1,4 @@
-![CC command](./cc.gif)
+
 
 # Shell-cat
 
@@ -7,6 +7,8 @@ That simple utility creates two commands in your zsh or bash config :
 - An other that git add ., git commit, and git push, with of course a random cat
 
 Idea from Violetta Goldman.
+
+![CC command](./cc.gif) ![GOLD command](./gold.gif)
 
 ## Installation
 
