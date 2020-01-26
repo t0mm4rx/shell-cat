@@ -26,7 +26,9 @@ function $$$1()
 """
 
 home = os.path.expanduser('~/')
-
+print("This script will add two functions in your shell :")
+print("- A push function that will: make fclean; git add .; git commit; git push")
+print("- A display cat function that display a cat")
 push_fn = input("Enter the push function name :")
 cat_fn = input("Enter the display cat function name :")
 
