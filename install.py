@@ -12,7 +12,7 @@ function $$$1()
 	git commit -m "$1"
 	git push
 	echo "MMEEEEEOOOOOOWWWW 🐈🐈\\n\\n"
-	find ~/.cats/ -type f -print0 | shuf -zn1 | xargs -0 cat
+	cat ~/.cats/cat"$(($RANDOM % 26))"
 	echo "\\n"
 }
 """
@@ -20,7 +20,7 @@ function $$$1()
 CAT_FN = """
 function $$$1()
 {
-	find ~/.cats/ -type f -print0 | shuf -zn1 | xargs -0 cat
+	cat ~/.cats/cat"$(($RANDOM % 26))"
 	echo "\\n"
 }
 """
