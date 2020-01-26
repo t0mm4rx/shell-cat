@@ -6,9 +6,11 @@ That simple utility creates two commands in your zsh or bash config :
 
 ## Installation
 
+Make sure your Python3 is installed.
+
 ```sh
 # In a folder where you have full writes
-git clone https://github.com/t0mm4rx/shell-cat && cd shell-cat && python install.py && cd ../ && rm -rf shell-cat
+git clone https://github.com/t0mm4rx/shell-cat && cd shell-cat && python3 install.py && cd ../ && rm -rf shell-cat
 ```
 
 Don't forget to source the shell you use, or open a new terminal:
