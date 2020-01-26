@@ -10,7 +10,7 @@ function $$$1()
 	git push
 	echo "MMEEEEEOOOOOOWWWW 🐈🐈\\n\\n"
 	find ~/.cats/ -type f -print0 | shuf -zn1 | xargs -0 cat
-	echo "\\n\\n"
+	echo "\\n"
 }
 """
 
