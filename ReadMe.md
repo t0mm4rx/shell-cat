@@ -4,6 +4,8 @@ That simple utility creates two commands in your zsh or bash config :
 - One that displays a random cat
 - An other that git add ., git commit, and git push, with of course a random cat
 
+Idea from Violetta Goldman.
+
 ## Installation
 
 Make sure Python3 is installed.
