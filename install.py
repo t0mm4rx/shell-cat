@@ -5,6 +5,9 @@ PUSH_FN = """
 function $$$1()
 {
 	make fclean
+	echo "\\n"
+	git status
+	echo "\\n"
 	git add .
 	git commit -m "$1"
 	git push
