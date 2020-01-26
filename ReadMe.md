@@ -7,7 +7,10 @@ That simple utility creates two commands in your zsh or bash config :
 ## Installation
 
 ```sh
-cd /tmp && git clone https://github.com/t0mm4rx/shell-cat && cd shell-cat && python install.py && cd ../ && rm -rf shell-cat
+# In a folder where you have full writes
+git clone https://github.com/t0mm4rx/shell-cat && cd shell-cat && python install.py && cd ../ && rm -rf shell-cat
 ```
 
 ## Problem ?
+
+Something went wrong ? Just delete your .bashrc and .zshrc and rename .bashrc_backup to .bashrc and .zshrc_backup to .zshrc.
