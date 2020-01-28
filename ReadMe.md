@@ -15,7 +15,7 @@ Idea from Violetta Goldman.
 Make sure Python3 is installed.
 
 ```sh
-# In a folder where you have full writes
+# In a folder where you have full rights
 git clone https://github.com/t0mm4rx/shell-cat && cd shell-cat && python3 install.py && cd ../ && rm -rf shell-cat
 ```
 
