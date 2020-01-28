@@ -12,7 +12,7 @@ function $$$1()
 	git commit -m "$1"
 	git push
 	echo "MMEEEEEOOOOOOWWWW 🐈🐈\\n\\n"
-	cat ~/.cats/cat"$(($RANDOM % 26))"
+	cat ~/.cats/cat"$(($RANDOM % 26 + 1))"
 	echo "\\n"
 }
 """
@@ -20,7 +20,7 @@ function $$$1()
 CAT_FN = """
 function $$$1()
 {
-	cat ~/.cats/cat"$(($RANDOM % 26))"
+	cat ~/.cats/cat"$(($RANDOM % 26 + 1))"
 	echo "\\n"
 }
 """
